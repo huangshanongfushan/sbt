@@ -1,0 +1,10 @@
+spring:
+  mvc:
+    view:
+      prefix: /WEB-INF/views/
+      suffix: .jsp
+  resources:
+    static-locations: /static
+server:
+  tomcat:
+    uri-encoding: utf-8
